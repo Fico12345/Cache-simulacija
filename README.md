@@ -1,1 +1,2 @@
 # Cache-simulacija
+Simulacija cache memorije i analiza cache performansi Opis: Implementirati jednostavni model cache memorije i analizirati utjecaj cache miss rate-a na performanse. Koristenjem Embest ARM IDE-a, studenti ce pisati kod za simulaciju direct- mapped i associativnog cache-a te analizirati pristupe memoriji na ARM7TDMI. Ciljevi projekta: 1. Simulirati cache memoriju na ARM-u 2. Ispitati utjecaj razlicitih cache politika na performanse 3. Benchmarking i vizualizacija rezultata
