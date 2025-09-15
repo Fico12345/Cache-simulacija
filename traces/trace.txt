@@ -1,0 +1,37 @@
+ # Kreiraj datoteku traces/mixed_trace.txt s ovim sadržajem:
+0x0000  # Sekvencijalni početak
+0x0004  # Unutar istog bloka - HIT
+0x0008  # Unutar istog bloka - HIT
+0x000C  # Unutar istog bloka - HIT
+0x0010  # Novi blok
+0x0014  # Unutar bloka - HIT
+0x0018  # Unutar bloka - HIT
+0x001C  # Unutar bloka - HIT
+0x0000  # Ponovni pristup - HIT
+0x0004  # Ponovni pristup - HIT
+0x1000  # Konfliktni pristup (isti set) - MISS
+0x2000  # Konfliktni pristup (isti set) - MISS
+0x0008  # Ponovni pristup - HIT
+0x0010  # Ponovni pristup - HIT
+0x3000  # Konfliktni pristup (isti set) - MISS
+0x1234  # Slučajni pristup
+0x5678  # Slučajni pristup
+0x0000  # Ponovni pristup - HIT
+0x1000  # Ponovni pristup - MISS (vjerojatno izbačeno)
+0x0014  # Ponovni pristup - HIT
+0x9ABC  # Slučajni pristup
+0x4000  # Isti set kao 0x0000
+0x5000  # Isti set kao 0x0000  
+0x0004  # HIT
+0x6000  # Isti set kao 0x0000
+0x0008  # HIT
+0x7000  # Isti set kao 0x0000
+0x0010  # HIT
+0x8000  # Isti set kao 0x0000
+0x0000 0x1000 0x2000 0x3000 0x4000  # Svi isti set!
+0x0004 0x1004 0x2004 0x3004 0x4004  # Svi isti set!
+0x0000  # HIT
+0x0004  # HIT  
+0x0008  # HIT
+0x0010  # HIT
+0x0014  # HIT
